@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Bluetea";
+  src: url("../fonts/Bluetea.otf");
+}
+@font-face {
+  font-family: "Moon";
+  src: url("../fonts/Moon-Light.otf");
+}
+
+body {
+  min-height: 600px;
+  background-image: url("https://i.pinimg.com/originals/93/c6/aa/93c6aaa4424c468db1c9f7904eb400d8.gif");
+  background-color: black;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: "Bluetea", monospace;
+  color: #ff7885;
+  font-size: 60px;
+}
+
+.container {
+  position: center;
+  width: 800px;
+  height: 430px;
+  margin-left: 500px;
+  margin-top: 200px;
+  margin-right: 350px;
+  text-align: center;
+  box-shadow: 1px 6px 1px #3b3251;
+  border: 3px solid #ff7885;
+  background-image: url("https://i.pinimg.com/originals/cf/ec/88/cfec8819d8376a57c86e3c6e53ed618e.gif");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.page-title {
+  color: #ff7885;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 0px;
+  font-family: "Moon", sans-serif;
+  font-size: 30px;
+}
+
+.gabe-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  font-size: 40px;
+  text-align: center;
+  margin: -15px;
+  padding: 6px;
+  border-radius: 10px;
+  box-shadow: 1px 5px 1px #3b3251;
+  border: 1px solid #ff7885;
+  width: 100px;
+  height: 70px;
+}
+
+button {
+  padding: 15px;
+  width: 20%;
+  margin: 10px;
+  border-radius: 50px;
+  box-shadow: 1px 5px 1px #ffffff;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(to right, #ff7885, #3b3251);
+  cursor: pointer;
+}
+
+.resultado {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 35px;
+  color: #3b3251;
+  text-align: center;
+  margin-top: 15px;
+}
