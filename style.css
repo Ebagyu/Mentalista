@@ -12,7 +12,6 @@ body {
   background-image: url("https://i.pinimg.com/originals/93/c6/aa/93c6aaa4424c468db1c9f7904eb400d8.gif");
   background-color: black;
   background-size: cover;
-  background-position: center bottom;
   background-repeat: no-repeat;
 }
 
@@ -23,15 +22,19 @@ h1 {
 }
 
 .container {
-  position: center;
-  width: 800px;
-  height: 430px;
-  margin-left: 250px;
-  margin-top: 50px;
-  margin-right: 500px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+}
+.box {
   box-shadow: 1px 6px 1px #3b3251;
   border: 3px solid #ff7885;
+  width: 700px;
+  height: 420px;
   background-image: url("https://i.pinimg.com/originals/cf/ec/88/cfec8819d8376a57c86e3c6e53ed618e.gif");
   background-repeat: repeat;
   background-size: cover;
@@ -39,7 +42,7 @@ h1 {
 
 .page-title {
   color: #ff7885;
-  margin: 0 0 5px;
+  margin: 3px 3px 1px;
 }
 
 .page-subtitle {
